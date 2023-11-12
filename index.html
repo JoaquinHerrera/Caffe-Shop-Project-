@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeBlog</title>
+    <meta name="description" content="Web page of a caffe blog" />
+
+    <!-- Prefetch-->
+    <link rel="Prefetch" href="us.html" as="document" />
+
+    <!-- PreLoad -->
+
+    <link rel="preload" href="Css/normalize.css" as="style" />
+    <link rel="stylesheet" href="Css/normalize.css" />
+
+    <link rel="preload" href="Css/style.css" as="style" />
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Preload-->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="bar">
+          <a class="logo" href="index.html">
+            <h1 class="logo__name no-margin text-center">
+              Coffe <span class="logo__bold">Blog</span>
+            </h1>
+          </a>
+          <nav class="navegation">
+            <a href="us.html" class="navegation__link"> Us</a
+            ><a href="classes.html" class="navegation__link"> Classes</a
+            ><a href="contact.html" class="navegation__link"> Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header__text">
+        <h2 class="no-margin">Coffee blog with tips and classes</h2>
+        <p class="no-margin">
+          Learn from the experts with the best recipes and tips
+        </p>
+      </div>
+    </header>
+
+    <div class="container principal-content">
+      <main class="blog">
+        <h3>Our Blog</h3>
+
+        <article class="entrance">
+          <div class="entrance__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog1.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog1.jpg" alt="blog img" />
+            </picture>
+          </div>
+          <div class="entrance__content">
+            <h4 class="no-margin">Types of coffee beans</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatum pariatur ipsam assumenda maxime officia nam facilis
+              corrupti veritatis eligendi eaque praesentium fugit, illo suscipit
+              cum, laborum dolor autem tenetur alias.
+            </p>
+            <a href="entrance.html" class="button button--primary"
+              >Read entrance</a
+            >
+          </div>
+        </article>
+        <!-- End 1block-->
+
+        <article class="entrance">
+          <div class="entrance__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog2.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog2.jpg" alt="blog img" />
+            </picture>
+          </div>
+          <div class="entrance__content">
+            <h4 class="no-margin">3 Delicious coffee recipes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatum pariatur ipsam assumenda maxime officia nam facilis
+              corrupti veritatis eligendi eaque praesentium fugit, illo suscipit
+              cum, laborum dolor autem tenetur alias.
+            </p>
+            <a href="entrance2.html" class="button button--primary"
+              >Read entrance</a
+            >
+          </div>
+        </article>
+
+        <!--End 2 block-->
+        <article class="entrance">
+          <div class="entrance__img">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog3.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog3.jpg" alt="blog img" />
+            </picture>
+          </div>
+          <div class="entrance__content">
+            <h4 class="no-margin">Benefits of coffee</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatum pariatur ipsam assumenda maxime officia nam facilis
+              corrupti veritatis eligendi eaque praesentium fugit, illo suscipit
+              cum, laborum dolor autem tenetur alias.
+            </p>
+            <a href="entrance3.html" class="button button--primary"
+              >Read entrance</a
+            >
+          </div>
+        </article>
+        <!-- End 3 Block-->
+      </main>
+      <!-- End Main  -->
+      <aside class="sidebar">
+        <h3>Our Classes and workshops</h3>
+        <ul class="classes no-padding">
+          <li class="widget-class">
+            <h4 class="no-margin">Coffee Extraction Techniques</h4>
+            <p class="widget-class__label">
+              Price:<span class="widget-class__inf"> Free</span>
+            </p>
+            <p class="widget-class__label">
+              Vacancy:<span class="widget-class__inf"> 20</span>
+            </p>
+            <a href="entrance.html" class="button button--secundary"
+              >More information about classes</a
+            >
+          </li>
+
+          <li class="widget-class">
+            <h4 class="no-margin">4 Coffee Recipes for Beginners</h4>
+            <p class="widget-class__label">
+              Price:<span class="widget-class__inf"> Free</span>
+            </p>
+            <p class="widget-class__label">
+              Vacancy:<span class="widget-class__inf"> 20</span>
+            </p>
+            <a href="entrance.html" class="button button--secundary"
+              >More information about classes</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <!-- End Container-->
+    <footer class="footer">
+      <div class="container">
+        <div class="bar">
+          <a class="logo" href="index.html">
+            <h1 class="logo__name no-margin text-center">
+              Coffe <span class="logo__bold">Blog</span>
+            </h1>
+          </a>
+          <nav class="navegation">
+            <a href="us.html" class="navegation__link"> Us</a
+            ><a href="classes.html" class="navegation__link"> Classes</a
+            ><a href="contact.html" class="navegation__link"> Contact</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>

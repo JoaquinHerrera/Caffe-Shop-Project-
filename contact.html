@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeBlog</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="bar">
+          <a class="logo" href="index.html">
+            <h1 class="logo__name no-margin text-center">
+              Coffe <span class="logo__bold">Blog</span>
+            </h1>
+          </a>
+          <nav class="navegation">
+            <a href="us.html" class="navegation__link"> Us</a
+            ><a href="classes.html" class="navegation__link"> Classes</a
+            ><a href="contact.html" class="navegation__link"> Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header__text">
+        <h2 class="no-margin">Coffee blog with tips and classes</h2>
+        <p class="no-margin">
+          Learn from the experts with the best recipes and tips
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <h3 class="text-center">Contact</h3>
+      <div class="contact-bg"></div>
+
+      <form class="formulary">
+        <div class="place">
+          <label class="place__label" for="name">Name</label>
+          <input
+            class="place__field"
+            type="text"
+            placeholder="Your name"
+            id="name"
+          />
+        </div>
+        <!-- End First Formulary-->
+
+        <div class="place">
+          <label class="place__label" for="email">E-mail</label>
+          <input
+            class="place__field"
+            type="text"
+            placeholder="Your E-mail"
+            id="email"
+          />
+        </div>
+        <!-- End Second Formulary-->
+
+        <div class="place">
+          <label class="place__label" for="message">Message</label>
+          <textarea
+            class="place__field place__field--textarea"
+            id="message"
+          ></textarea>
+        </div>
+        <!-- End Third Formulary-->
+
+        <div class="place">
+          <input type="submit" value="Send" class="button button--primary" />
+        </div>
+      </form>
+      <!-- End Fromulary -->
+    </main>
+    <!-- End Main-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="bar">
+          <a class="logo" href="index.html">
+            <h1 class="logo__name no-margin text-center">
+              Coffe <span class="logo__bold">Blog</span>
+            </h1>
+          </a>
+          <nav class="navegation">
+            <a href="us.html" class="navegation__link"> Us</a
+            ><a href="classes.html" class="navegation__link"> Classes</a
+            ><a href="contact.html" class="navegation__link"> Contact</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>
